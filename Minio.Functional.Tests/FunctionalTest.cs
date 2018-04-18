@@ -198,9 +198,9 @@ namespace Minio.Functional.Tests
          //   StatObject_Test1(minioClient).Wait();
 
             // Test GetObjectAsync function
-            GetObject_Test1(minioClient).Wait();
-            GetObject_Test2(minioClient).Wait();
-            GetObject_Test3(minioClient).Wait();
+        //    GetObject_Test1(minioClient).Wait();
+        //    GetObject_Test2(minioClient).Wait();
+        //    GetObject_Test3(minioClient).Wait();
 
             // Test File GetObject and PutObject functions
 
@@ -220,13 +220,13 @@ namespace Minio.Functional.Tests
        //     RemoveObjects_Test2(minioClient).Wait();
 
             // Test CopyObjectAsync function
-         //   CopyObject_Test1(minioClient).Wait();
-        //    CopyObject_Test2(minioClient).Wait();
-        //    CopyObject_Test3(minioClient).Wait();
-        //    CopyObject_Test4(minioClient).Wait();
-        //    CopyObject_Test5(minioClient).Wait();
-        //    CopyObject_Test6(minioClient).Wait();
-        //    CopyObject_Test7(minioClient).Wait();
+            CopyObject_Test1(minioClient).Wait();
+            CopyObject_Test2(minioClient).Wait();
+            CopyObject_Test3(minioClient).Wait();
+            CopyObject_Test4(minioClient).Wait();
+            CopyObject_Test5(minioClient).Wait();
+            CopyObject_Test6(minioClient).Wait();
+            CopyObject_Test7(minioClient).Wait();
 
             // Test SetPolicyAsync function
       //      SetBucketPolicy_Test1(minioClient).Wait();
