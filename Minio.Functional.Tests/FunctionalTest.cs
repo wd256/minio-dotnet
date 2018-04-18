@@ -209,10 +209,10 @@ namespace Minio.Functional.Tests
         //    FPutObject_Test2(minioClient).Wait();
 
             // Test ListObjectAsync function
-            ListObjects_Test1(minioClient).Wait();
-            ListObjects_Test2(minioClient).Wait();
-            ListObjects_Test3(minioClient).Wait();
-            ListObjects_Test4(minioClient).Wait();
+           // ListObjects_Test1(minioClient).Wait();
+         ////   ListObjects_Test2(minioClient).Wait();
+         //   ListObjects_Test3(minioClient).Wait();
+         //   ListObjects_Test4(minioClient).Wait();
             ListObjects_Test5(minioClient).Wait();
 
             // Test RemoveObjectAsync function
