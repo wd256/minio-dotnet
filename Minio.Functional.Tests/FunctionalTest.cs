@@ -198,9 +198,9 @@ namespace Minio.Functional.Tests
          //   StatObject_Test1(minioClient).Wait();
 
             // Test GetObjectAsync function
-        //    GetObject_Test1(minioClient).Wait();
-        //    GetObject_Test2(minioClient).Wait();
-        //    GetObject_Test3(minioClient).Wait();
+            GetObject_Test1(minioClient).Wait();
+            GetObject_Test2(minioClient).Wait();
+            GetObject_Test3(minioClient).Wait();
 
             // Test File GetObject and PutObject functions
 
@@ -209,39 +209,39 @@ namespace Minio.Functional.Tests
         //    FPutObject_Test2(minioClient).Wait();
 
             // Test ListObjectAsync function
-            ListObjects_Test1(minioClient).Wait();
-            ListObjects_Test2(minioClient).Wait();
-            ListObjects_Test3(minioClient).Wait();
-            ListObjects_Test4(minioClient).Wait();
-            ListObjects_Test5(minioClient).Wait();
+         //   ListObjects_Test1(minioClient).Wait();
+        //    ListObjects_Test2(minioClient).Wait();
+         //   ListObjects_Test3(minioClient).Wait();
+         //   ListObjects_Test4(minioClient).Wait();
+         //   ListObjects_Test5(minioClient).Wait();
 
             // Test RemoveObjectAsync function
-            RemoveObject_Test1(minioClient).Wait();
-            RemoveObjects_Test2(minioClient).Wait();
+       //     RemoveObject_Test1(minioClient).Wait();
+       //     RemoveObjects_Test2(minioClient).Wait();
 
             // Test CopyObjectAsync function
-            CopyObject_Test1(minioClient).Wait();
-            CopyObject_Test2(minioClient).Wait();
-            CopyObject_Test3(minioClient).Wait();
-            CopyObject_Test4(minioClient).Wait();
-            CopyObject_Test5(minioClient).Wait();
-            CopyObject_Test6(minioClient).Wait();
-            CopyObject_Test7(minioClient).Wait();
+         //   CopyObject_Test1(minioClient).Wait();
+        //    CopyObject_Test2(minioClient).Wait();
+        //    CopyObject_Test3(minioClient).Wait();
+        //    CopyObject_Test4(minioClient).Wait();
+        //    CopyObject_Test5(minioClient).Wait();
+        //    CopyObject_Test6(minioClient).Wait();
+        //    CopyObject_Test7(minioClient).Wait();
 
             // Test SetPolicyAsync function
-            SetBucketPolicy_Test1(minioClient).Wait();
+      //      SetBucketPolicy_Test1(minioClient).Wait();
 
             // Test Presigned Get/Put operations
-            PresignedGetObject_Test1(minioClient).Wait();
-            PresignedGetObject_Test2(minioClient).Wait();
-            PresignedGetObject_Test3(minioClient).Wait();
-            PresignedPutObject_Test1(minioClient).Wait();
-            PresignedPutObject_Test2(minioClient).Wait();
+      //      PresignedGetObject_Test1(minioClient).Wait();
+      //      PresignedGetObject_Test2(minioClient).Wait();
+       //     PresignedGetObject_Test3(minioClient).Wait();
+       //     PresignedPutObject_Test1(minioClient).Wait();
+       //     PresignedPutObject_Test2(minioClient).Wait();
             // Test incomplete uploads
-            ListIncompleteUpload_Test1(minioClient).Wait();
-            ListIncompleteUpload_Test2(minioClient).Wait();
-            ListIncompleteUpload_Test3(minioClient).Wait();
-            RemoveIncompleteUpload_Test(minioClient).Wait();
+        //    ListIncompleteUpload_Test1(minioClient).Wait();
+       //     ListIncompleteUpload_Test2(minioClient).Wait();
+       //     ListIncompleteUpload_Test3(minioClient).Wait();
+        //    RemoveIncompleteUpload_Test(minioClient).Wait();
 
             // Test GetBucket policy
 
