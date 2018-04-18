@@ -166,11 +166,11 @@ namespace Minio.Functional.Tests
                 System.Environment.Exit(0);
             }
             // Check if bucket exists
-            BucketExists_Test(minioClient).Wait();
+            //BucketExists_Test(minioClient).Wait();
 
             // Create a new bucket
-            MakeBucket_Test1(minioClient).Wait();
-            MakeBucket_Test2(minioClient).Wait();
+            //MakeBucket_Test1(minioClient).Wait();
+            //MakeBucket_Test2(minioClient).Wait();
             if (useAWS)
             {
                 MakeBucket_Test3(minioClient).Wait();
@@ -178,35 +178,35 @@ namespace Minio.Functional.Tests
             }
 
             // Test removal of bucket
-            RemoveBucket_Test1(minioClient).Wait();
+            //RemoveBucket_Test1(minioClient).Wait();
 
             // Test ListBuckets function
-            ListBuckets_Test(minioClient).Wait();
+           //ListBuckets_Test(minioClient).Wait();
 
             // Test Putobject function
-            PutObject_Test1(minioClient).Wait();
-            PutObject_Test2(minioClient).Wait();
+            //PutObject_Test1(minioClient).Wait();
+           // PutObject_Test2(minioClient).Wait();
 
-            PutObject_Test3(minioClient).Wait();
-            PutObject_Test4(minioClient).Wait();
-            PutObject_Test5(minioClient).Wait();
-            PutObject_Test6(minioClient).Wait();
-            PutObject_Test7(minioClient).Wait();
-            PutObject_Test8(minioClient).Wait();
+          // PutObject_Test3(minioClient).Wait();
+           // PutObject_Test4(minioClient).Wait();
+          //  PutObject_Test5(minioClient).Wait();
+          //  PutObject_Test6(minioClient).Wait();
+          //  PutObject_Test7(minioClient).Wait();
+          //  PutObject_Test8(minioClient).Wait();
 
             // Test StatObject function
-            StatObject_Test1(minioClient).Wait();
+         //   StatObject_Test1(minioClient).Wait();
 
             // Test GetObjectAsync function
-            GetObject_Test1(minioClient).Wait();
-            GetObject_Test2(minioClient).Wait();
-            GetObject_Test3(minioClient).Wait();
+        //    GetObject_Test1(minioClient).Wait();
+        //    GetObject_Test2(minioClient).Wait();
+        //    GetObject_Test3(minioClient).Wait();
 
             // Test File GetObject and PutObject functions
 
-            FGetObject_Test1(minioClient).Wait();
+        //    FGetObject_Test1(minioClient).Wait();
             // FIX=> FPutObject_Test1(minioClient).Wait();
-            FPutObject_Test2(minioClient).Wait();
+        //    FPutObject_Test2(minioClient).Wait();
 
             // Test ListObjectAsync function
             ListObjects_Test1(minioClient).Wait();
